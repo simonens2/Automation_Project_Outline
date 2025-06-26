@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;     /* Center the text horizontally */
+  margin: 0;
+  padding: 2em;
+}
+
+/* Optional nav styling */
+nav {
+  margin-bottom: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0066cc;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.file-upload {
+  display: block;
+  margin: 10px auto 30px;
+  padding: 10px;
+  background-color: white;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.file-upload:hover {
+  border-color: #999;
+}
+
